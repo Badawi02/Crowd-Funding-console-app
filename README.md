@@ -29,4 +29,4 @@ The aim of the project: Create a console app to start fundraise projects.
 - User can view all projects
 - User can edit his own projects
 - User can delete his own project
-- User can search for a project using date (bonus)
+- User can search for a project using date
