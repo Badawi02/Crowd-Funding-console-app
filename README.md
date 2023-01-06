@@ -25,6 +25,13 @@ The aim of the project: Create a console app to start fundraise projects.
   - Set start/end time for the campaign (validate the date formula) 
  
  
+ ## How To Use:
+
+```python3
+$ python3 crudop.py
+    then navigate through the menus
+```
+ 
  ## Keep in mind:
 - User can view all projects
 - User can edit his own projects
