@@ -3,7 +3,7 @@ from login import login
 from createproject import createProject
 from viewProject import viewProject
 from deleteProject import deleteProject
-#from editProject import editproject
+from editProject import editproject
 
 
 def projectsMenu():
@@ -15,10 +15,10 @@ def projectsMenu():
         viewProject()
     elif choice == "x":
         deleteProject()
-#    elif choice == "e":
-#        editproject()
-#    elif choice == "s":
-#        print("this option will be available Soon :)")
+    elif choice == "e":
+        editproject()
+    elif choice == "s":
+        print("this option will be available Soon :)")
     elif choice == "q":
         mainMenu()
     else:

@@ -32,10 +32,3 @@ def deleteProject ():
     w = open("projects.text", "w")
     w.writelines(allproject)
     w.close()
-
-
-
-
-
-
-

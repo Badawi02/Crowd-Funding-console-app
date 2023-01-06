@@ -35,7 +35,6 @@ def register():
         nphone = list(phone)
         if phone.isdigit() and len(nphone) == 11 :
             if nphone[0:3]==['0','1','1'] or nphone[0:3]==['0','1','0'] or nphone[0:3]==['0','1','2'] or nphone[0:3]==['0','1','5']:
-                print ("================== Create Account successfuly ====================")
                 break
         print("plz enter valid egyptain phone number , must be equal 11 numbers")
 
@@ -48,6 +47,6 @@ def register():
     else:
         userinfo = f"{fname}:{lname}:{email}:{password}:{phone}\n"
         operation.write(userinfo)
-        print("You registed Successfully")
+        print ("================== Create Account successfuly ====================")
         operation.close()
 
